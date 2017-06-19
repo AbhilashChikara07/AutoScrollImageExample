@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="FlowLayout">
+        <attr name="android:gravity" />
+    </declare-styleable>
+    <declare-styleable name="FlowLayout_Layout">
+        <attr name="android:layout_gravity" />
+    </declare-styleable>
+
+    <declare-styleable name="OkuHorizontalTimeLineView">
+        <attr name="rangeCount" format="integer" />
+        <attr name="filledColor" format="color" />
+        <attr name="emptyColor" format="color" />
+        <attr name="filledTextColor" format="color" />
+        <attr name="emptyTextColor" format="color" />
+        <attr name="barHeightPercent" format="float" />
+        <attr name="slotRadiusPercent" format="float" />
+        <attr name="sliderRadiusPercent" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="AddFlowRadiButton">
+        <attr name="focusedDrawable" format="reference" />
+        <attr name="normalDrawable" format="reference" />
+    </declare-styleable>
+
+    <!--OkuSaucerProgress is a new UX Hack loader-->
+    <declare-styleable name="OkuSaucerProgress">
+        <attr name="progress" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="unfinished_color" format="color" />
+        <attr name="finished_color" format="color" />
+        <attr name="finished_stroke_width" format="dimension" />
+        <attr name="unfinished_stroke_width" format="dimension" />
+        <attr name="background_color" format="color" />
+        <attr name="circle_starting_degree" format="integer" />
+    </declare-styleable>
+
+
+
+    <declare-styleable name="ViewPagerIndicator">
+        <!-- Style of the circle indicator. -->
+        <attr name="vpiCirclePageIndicatorStyle" format="reference" />
+    </declare-styleable>
+
+
+    <attr name="centered" format="boolean" />
+    <attr name="selectedColor" format="color" />
+    <attr name="strokeWidth" format="dimension" />
+    <attr name="unselectedColor" format="color" />
+
+    <declare-styleable name="CirclePageIndicator">
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="centered" />
+        <!-- Color of the filled circle that represents the current page. -->
+        <attr name="fillColor" format="color" />
+        <!-- Color of the filled circles that represents pages. -->
+        <attr name="pageColor" format="color" />
+        <!-- Orientation of the indicator. -->
+        <attr name="android:orientation"/>
+        <!-- Radius of the circles. This is also the spacing between circles. -->
+        <attr name="radius" format="dimension" />
+        <!-- Whether or not the selected indicator snaps to the circles. -->
+        <attr name="snap" format="boolean" />
+        <!-- Color of the open circles. -->
+        <attr name="strokeColor" format="color" />
+        <!-- Width of the stroke used to draw the circles. -->
+        <attr name="strokeWidth" />
+        <!-- View background -->
+        <attr name="android:background"/>
+    </declare-styleable>
+
+</resources>
